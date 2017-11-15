@@ -13,9 +13,10 @@
 
 Route::get('/', function () {
     return view('welcome');
-})->name('root');
+});
 
   route::resource('/articles','articlesController');
   // route::get('test','articlesController@index')->name('artikel');
 
 Route::get('profile','StaticsController@profile')->name('profile');
+Route::get('home','StaticsController@home')->name('home');

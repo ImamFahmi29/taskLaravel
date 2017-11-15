@@ -6,9 +6,14 @@
 <meta name="viewport" content="width=device-width, initial-
 scale=1">
 
-<title>Laravel 5</title>
-<link type="text/css" href="/css/bootstrap.css" rel="stylesheet" />
-<link type="text/css" href="/css/style.css" rel="stylesheet" />
+<title>Laravel</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+<link type="text/css" href="/assets/css/bootstrap.css" rel="stylesheet" />
+<link href="/assets/css/material-design/bootstrap-material-design.css" rel="stylesheet" />
+<link href="/assets/css/material-design/ripples.css" rel="stylesheet" />
+
+
 </head>
 <body style="padding-top:60px;">
 
@@ -40,10 +45,13 @@ right">
 </div>
 </div>
 </div>
-<script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
-<script type="text/javascript" src="/js/bootstrap.js"></script>
-</body>
+
+	<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+	<script type="text/javascript" src="/assets/js/bootstrap.js"></script>
+	<script type="text/javascript" src="/assets/js/jquery-3.2.1.js"></script>
+	<script src="/assets/js/material-design/material.js"></script>	
+	<script src="/assets/js/material-design/ripples.js"></script>
+	<script src="/assets/js/custom/layout.js"></script>
+	
+	</body>
 </html>

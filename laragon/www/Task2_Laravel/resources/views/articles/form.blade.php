@@ -14,8 +14,7 @@ control-label')) !!}
 control-label')) !!}
 <div class="col-lg-9">
 
-{!! Form::textarea('content', null, array('class' => 'form-
-control', 'rows' => 10)) !!}
+{!! Form::textarea('content', null, array('class' => 'form-control', 'rows' => 10)) !!}
 
 <div class="text-danger">{!! $errors->first('content') !!}</div>
 </div>
@@ -25,11 +24,9 @@ control', 'rows' => 10)) !!}
 <div class="col-lg-3"></div>
 <div class="col-lg-9">
 
-{!! Form::submit('Save', array('class' => 'btn btn-raised btn-
-primary')) !!}
+{!! Form::submit('Save', array('class' => 'btn btn-raised btn-primary')) !!}
 
-{!! link_to(route('articles.index'), "Back", ['class' => 'btn btn-
-raised btn-info']) !!}
+{!! link_to(route('articles.index'), "Back", ['class' => 'btn btn-raised btn-info']) !!}
 
 </div>
 <div class="clear"></div>

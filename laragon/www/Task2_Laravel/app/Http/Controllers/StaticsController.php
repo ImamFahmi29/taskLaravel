@@ -10,4 +10,7 @@ class StaticsController extends Controller
     public function profile() {
 	return view('statics/profile');
 }
+public function home() {
+	return view('layouts/home');
+	}
 }
