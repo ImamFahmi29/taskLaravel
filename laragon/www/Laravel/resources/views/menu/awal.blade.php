@@ -19,7 +19,7 @@ scale=1">
 </ol>
 
 <!-- Wrapper for slides -->
-<div class="carousel-inner" role="listbox">
+<div class="carousel-inner" role="listbox">s
     <div class="item active">
         <img src="img/taman-vanda.jpg" alt="Taman Vanda Bandung">
         <div class="carousel-caption">

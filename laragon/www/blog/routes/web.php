@@ -14,10 +14,3 @@
 Route::get('/', function () {
     return view('welcome');
 });
-
-  route::resource('/articles','articlesController');
-  Route::resource('comments', 'CommentsController');
-  // route::get('test','articlesController@index')->name('artikel');
-
-Route::get('profile','StaticsController@profile')->name('profile');
-Route::get('home','StaticsController@home')->name('home');

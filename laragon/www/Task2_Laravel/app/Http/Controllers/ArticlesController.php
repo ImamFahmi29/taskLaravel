@@ -50,8 +50,11 @@ class ArticlesController extends Controller
      */
     public function show($id)
     {
-        $article = Article::find($id);
-        return view('articles.show')->with('article', $article);
+       $article = Article::find($id);
+        $comments = Article::find($id)->comments->sortBy('Comment.created_at');
+        return view('articles.show')
+        ->with('article', $article)
+        ->with('comments', $comments);
     }
 
     /**
@@ -75,9 +78,9 @@ class ArticlesController extends Controller
      */
     public function update(ArticleRequest $request, $id)
     {
-        Article::find($id)->update($request->all());
-Session::flash("notice", "Article success updated");
-return redirect()->route("articles.show", $id);
+         Article::find($id)->update($request->all());
+        Session::flash("notice", "Article success updated");
+        return redirect()->route("articles.show", $id);
     }
 
     /**
